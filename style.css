@@ -1,0 +1,17 @@
+.main-header {
+	text-align: center;
+	font-family: "Garamond", serif;
+	font-size: 28px;
+}
+
+body {
+	width: 300px;
+	height: 100px;
+}
+
+.primary {
+	text-align: center;
+	font-family: "Georgia", serif;
+	font-size: 16px;
+	padding: 10px 50px;
+}
