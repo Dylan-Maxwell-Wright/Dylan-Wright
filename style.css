@@ -5,13 +5,14 @@
 .main-header {
 	text-align: center;
 	font-family: "Garamond", serif;
-	font-size: 28px;
+	font-size: 50px;
 }
 
 body {
 	width: 100px;
 	height: 100px;
 	position: relative;
+	color: #FFF;
 }
 
 p {
