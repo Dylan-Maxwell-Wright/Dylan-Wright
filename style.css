@@ -39,7 +39,8 @@ p {
 	position: relative;
 	left: 0px;
 	top: 400px;
+	box-sizing: border-box;
 	/*margin: 60px auto;*/
-	background-color: #BC2C01;
+	background-color: #BA0101;
 	/*padding: 10px 50px;*/
 }
