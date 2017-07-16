@@ -35,7 +35,8 @@ p {
 	font-family: "Georgia", serif;
 	font-size: 20px;
 	width: 100%;
-	padding: 60px;
+	padding-left: 120px;
+	padding-right: 120px;
 	position: relative;
 	left: 0px;
 	top: 0px;
