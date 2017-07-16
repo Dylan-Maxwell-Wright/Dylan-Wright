@@ -35,7 +35,10 @@ p {
 	font-family: "Georgia", serif;
 	font-size: 20px;
 	width: 100%;
-	padding: 60px 100px;
+	padding: 60px;
+	position: relative;
+	left: 0px;
+	top: 400px;
 	/*margin: 60px auto;*/
 	background-color: #BC2C01;
 	/*padding: 10px 50px;*/
