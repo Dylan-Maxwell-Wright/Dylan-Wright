@@ -1,3 +1,7 @@
+* {
+	border-style: solid; 
+}
+
 .main-header {
 	text-align: center;
 	font-family: "Garamond", serif;
@@ -5,15 +9,17 @@
 }
 
 body {
-	width: 300px;
+	width: 100px;
 	height: 100px;
 	position: relative;
 }
 
+p {
+	
+}
 .primary {
 	text-align: center;
 	font-family: "Georgia", serif;
 	font-size: 16px;
 	padding: 10px 50px;
-	max-width: 300px
 }
