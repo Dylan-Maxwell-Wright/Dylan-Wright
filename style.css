@@ -41,6 +41,7 @@ p {
 }
 .primary {
 	text-align: left;
+	text-indent: 50px;
 	font-family: "Georgia", serif;
 	font-size: 20px;
 	width: 100%;
