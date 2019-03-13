@@ -3,11 +3,11 @@
 }
 
 .main-header {
+	color: black;
 	text-align: left;
 	font-family: "Garamond", serif;
 	font-size: 30px;
-	/*background: -webkit-linear-gradient(top left, #D1F3F3, #D1F3E7);*/
-	background-color: lightblue;
+	background: -webkit-linear-gradient(top left, #D1F3F3, #D1F3E7);
 	height: 350px;
 	width: 100%;
 	overflow: hidden;
@@ -45,6 +45,5 @@ p {
 	top: 0px;
 	box-sizing: border-box;
 	/*margin: 60px auto;*/
-	background-color: #BA0101;
 	/*padding: 10px 50px;*/
 }
