@@ -24,7 +24,7 @@ body {
 	/*width: 300px;
 	height: 100px;
 	position: relative;*/
-	color: #DFD001;
+	/*color: #DFD001;*/
 	margin: 0px;
 }
 
@@ -32,7 +32,7 @@ p {
 	
 }
 .primary {
-	text-align: center;
+	text-align: left;
 	font-family: "Georgia", serif;
 	font-size: 20px;
 	width: 100%;
