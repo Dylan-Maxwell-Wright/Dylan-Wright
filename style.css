@@ -15,7 +15,7 @@
 	overflow: hidden;
 	display: block;
 	top: 0px;
-	left: 90px;
+	left: 0px;
 	padding: 100px 100px 0px 30px;
 	box-sizing: border-box;
 	position: relative;	
@@ -25,7 +25,7 @@
 .title {
 	position: absolute;
 	bottom: 0;
-	left: 120;
+	left: 120px;
 }
 
 hr {
@@ -35,6 +35,7 @@ hr {
 	margin-right:30px;
 	border-width: 2px;
 	border-style: solid;
+	z-index: 1;
 }
 
 body {
