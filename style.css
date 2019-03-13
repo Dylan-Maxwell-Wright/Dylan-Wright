@@ -121,7 +121,7 @@ p {
   background-color: #ddd;
 }
 
-.projects:hover .project-content {
+.projects:hover .projects-content {
   display: block;
 }
 
