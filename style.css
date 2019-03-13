@@ -6,7 +6,8 @@
 	text-align: left;
 	font-family: "Garamond", serif;
 	font-size: 30px;
-	background: -webkit-linear-gradient(top left, #D1F3F3, #D1F3E7);
+	/*background: -webkit-linear-gradient(top left, #D1F3F3, #D1F3E7);*/
+	background-color: lightblue;
 	height: 350px;
 	width: 100%;
 	overflow: hidden;
@@ -23,6 +24,7 @@ body {
 	/*width: 300px;
 	height: 100px;
 	position: relative;*/
+	color: #DFD001;
 	margin: 0px;
 }
 
