@@ -60,3 +60,68 @@ p {
 	/*margin: 60px auto;*/
 	/*padding: 10px 50px;*/
 }
+
+/*Home Navigation Bar*/
+.homeNavBar {
+	overflow: hidden;
+	background-color: White;
+	font-family: "Georgia", serif;
+}
+
+/*Navbar links*/
+.homeNavBar a {
+	float: left;
+	font-size: 20px;
+	color: Black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*Projects dropdown menu*/
+.projects {
+	float: left;
+	overflow: hidden;
+}
+
+.projects .dropdown {
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: Black;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0px;
+}
+
+.homeNavBar a:hover, .projects:hover .dropdown {
+	background-color: grey;
+}
+
+.projects-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.projects-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.projects-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .project-content {
+  display: block;
+}
+
