@@ -3,11 +3,11 @@
 }
 
 .main-header {
-	color: black;
+	color: Black;
 	text-align: left;
 	font-family: "Garamond", serif;
 	font-size: 30px;
-	background: -webkit-linear-gradient(top left, #D1F3F3, #D1F3E7);
+	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
 	height: 350px;
 	width: 100%;
 	overflow: hidden;
