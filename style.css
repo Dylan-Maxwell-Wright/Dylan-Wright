@@ -29,16 +29,12 @@
 }
 
 hr {
-	margin-top: 0px;
+	margin-top: -4px;
 	margin-bottom: 0px;
 	margin-left: 30px;
 	margin-right:30px;
 	border-width: 2px;
 	border-style: solid;
-}
-
-.hr hr {
-	display: none;
 }
 
 body {
