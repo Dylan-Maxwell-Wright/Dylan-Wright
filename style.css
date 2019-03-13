@@ -19,6 +19,7 @@
 	padding: 100px 100px 0px 30px;
 	box-sizing: border-box;
 	position: relative;	
+	z-index: 0;
 }
 
 .title {
@@ -128,7 +129,7 @@ p {
   background-color: #ddd;
 }
 
-.dropButton:hover .projects-content {
+.projects:hover .projects-content {
   display: block;
 }
 
