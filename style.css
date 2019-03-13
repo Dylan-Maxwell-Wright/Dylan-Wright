@@ -67,8 +67,9 @@ p {
 
 /*Home Navigation Bar*/
 .homeNavBar {
-	text-align: right;
-	padding-right: 50px;
+	position: absolute;
+	right: 50px;
+	/*padding-right: 50px;*/
 	overflow: hidden;
 	/*background: -webkit-linear-gradient(left, #E3FEFD, #E3FEF1);*/
 	background-color:rgba(0, 0, 0, 0.0);
