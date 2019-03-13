@@ -18,10 +18,12 @@
 	left: 0px;
 	padding: 100px 100px 0px 30px;
 	box-sizing: border-box;
-	position: absoslute;
-	botton: 0px;
-	
-	
+	position: relative;	
+}
+
+.title {
+	position: absolute;
+	bottom: 0;
 }
 
 hr {
