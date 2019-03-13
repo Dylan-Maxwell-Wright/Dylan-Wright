@@ -19,7 +19,7 @@
 	padding: 100px 100px 0px 30px;
 	box-sizing: border-box;
 	position: relative;	
-	z-index: 1;
+	z-index: 0;
 }
 
 .title {
@@ -74,7 +74,7 @@ p {
 	/*background: -webkit-linear-gradient(left, #E3FEFD, #E3FEF1);*/
 	background-color:rgba(0, 0, 0, 0.0);
 	font-family: "Georgia", serif;
-	z-index: 0;
+	z-index: 1;
 }
 
 /*Navbar links*/
