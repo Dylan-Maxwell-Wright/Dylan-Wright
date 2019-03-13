@@ -7,8 +7,10 @@
 	text-align: left;
 	font-family: "Garamond", serif;
 	font-size: 26px;
+	line-height: 30px;
+	
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
-	height: 300px;
+	height: 220px;
 	width: 100%;
 	overflow: hidden;
 	display: block;
@@ -17,6 +19,7 @@
 	padding: 100px 100px 0px 30px;
 	box-sizing: border-box;
 	position: relative;
+	
 	
 }
 
