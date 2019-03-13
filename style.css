@@ -18,7 +18,8 @@
 	left: 0px;
 	padding: 100px 100px 0px 30px;
 	box-sizing: border-box;
-	position: relative;
+	position: absoslute;
+	botton: 0px;
 	
 	
 }
