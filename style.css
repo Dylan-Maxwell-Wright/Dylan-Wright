@@ -84,7 +84,7 @@ p {
 	overflow: hidden;
 }
 
-.projects .dropdown {
+.projects .dropButton {
 	font-size: 20px;
 	border: none;
 	outline: none;
@@ -95,7 +95,7 @@ p {
 	margin: 0px;
 }
 
-.homeNavBar a:hover, .projects:hover .dropdown {
+.homeNavBar a:hover, .projects:hover .dropButton {
 	background-color: grey;
 }
 
