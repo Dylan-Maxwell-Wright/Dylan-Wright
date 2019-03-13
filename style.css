@@ -64,8 +64,10 @@ p {
 
 /*Home Navigation Bar*/
 .homeNavBar {
+	text-aligh: right;
+	padding-right: 50px;
 	overflow: hidden;
-	background-color: White;
+	background: -webkit-linear-gradient(left, #E3FEFD, #E3FEF1);
 	font-family: "Georgia", serif;
 }
 
