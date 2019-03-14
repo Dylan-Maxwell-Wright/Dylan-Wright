@@ -1,0 +1,141 @@
+
+.header {
+	color: Black;
+	text-align: left;
+	font-family: "Garamond", serif;
+	font-size: 20px;
+	line-height: 0px;
+	
+	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
+	height: 220px;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	top: 0px;
+	left: 0px;
+	padding: 100px 100px 0px 30px;
+	box-sizing: border-box;
+	position: relative;	
+    z-index: -1;
+    overflow: auto;
+}
+
+h1 {
+    position: absolute;
+	bottom: 0;
+	left: 120px;
+}
+
+hr {
+    margin-top: -2px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	margin-right:30px;
+	border-width: 1px;
+    border-style: solid;
+}
+
+body {
+    margin: 0px;
+    overflow: auto;
+}
+
+div {
+    font-family: "Garamond", serif;
+    font-size: 18px;
+}
+/*Boiler Plate Nav Bar*/
+/*Home Navigation Bar*/
+.homeNavBar {
+	position: absolute;
+	left: 80%;
+	overflow: hidden;
+	background-color:rgba(0, 0, 0, 0.0);
+	font-family: "Georgia", serif;
+    z-index: 1;
+    min-width: 200px;
+    overflow: auto;
+}
+
+/*Navbar links*/
+.homeNavBar a {
+    float: left;
+	font-size: 20px;
+	color: Black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*Projects dropdown menu*/
+.projects {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    float: none;
+}
+
+.dropButton {
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: Black;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0px;
+}
+
+.homeNavBar a:hover, .projects:hover .dropButton {
+	background-color: grey;
+}
+
+.projects-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.projects-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.projects-content a:hover {
+  background-color: #ddd;
+}
+
+.projects:hover .projects-content {
+  display: block;
+}
+
+.column1 {
+    float: left;
+    width: 60%;
+    padding: 15px;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
