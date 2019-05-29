@@ -8,15 +8,18 @@
 	
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
 	height: 220px;
-	width: 100%;
 	overflow: hidden;
 	display: block;
-	top: 0px;
-	left: 0px;
+    top: 0px;
+    left: 0px;
 	padding: 100px 100px 0px 30px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 	position: relative;	
     z-index: -1;
+}
+
+body {
+    margin: 0px;
     overflow: auto;
 }
 
@@ -35,17 +38,11 @@ hr {
     border-style: solid;
 }
 
-body {
-    margin: 0px;
-    overflow: auto;
-}
-
 div {
     font-family: "Garamond", serif;
     font-size: 18px;
 }
 /*Boiler Plate Nav Bar*/
-/*Home Navigation Bar*/
 .homeNavBar {
 	position: absolute;
 	left: 80%;
@@ -57,7 +54,6 @@ div {
     overflow: auto;
 }
 
-/*Navbar links*/
 .homeNavBar a {
     float: left;
 	font-size: 20px;
@@ -67,7 +63,6 @@ div {
 	text-decoration: none;
 }
 
-/*Projects dropdown menu*/
 .projects {
     position: relative;
     display: inline-block;
@@ -118,13 +113,13 @@ div {
 
 .column1 {
     float: left;
-    width: 33.33%;
+    width: 60%;
     padding: 15px;
 }
 
 .column2 {
     float: left;
-    width: 60%;
+    width: 33.33%;
     padding: 15px;
 }
 
