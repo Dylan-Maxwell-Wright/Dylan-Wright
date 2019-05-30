@@ -7,16 +7,20 @@
 	line-height: 0px;
 	
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
-	height: 220px;
-	width: 100em;
+    height: 220px;
+    width: 100em;
 	overflow: hidden;
 	display: block;
-	top: 0px;
-	left: 0px;
+    top: 0px;
+    left: 0px;
 	padding: 100px 100px 0px 30px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 	position: relative;	
     z-index: -1;
+}
+
+body {
+    margin: 0px;
     overflow: auto;
 }
 
@@ -34,17 +38,11 @@ hr {
     border-style: solid;
 }
 
-body {
-    margin: 0px;
-    overflow: auto;
-}
-
 div {
     font-family: "Garamond", serif;
     font-size: 18px;
 }
 
-/*Home Navigation Bar*/
 .homeNavBar {
 	position: absolute;
 	left: 80em;
@@ -56,8 +54,8 @@ div {
     overflow: auto;
 }
 
-/*Navbar links*/
 .homeNavBar a {
+    position: relative;
     float: left;
 	font-size: 20px;
 	color: Black;
@@ -66,7 +64,6 @@ div {
 	text-decoration: none;
 }
 
-/*Projects dropdown menu*/
 .projects {
     position: relative;
     overflow: hidden;
@@ -113,31 +110,4 @@ div {
 
 .projects:hover .projects-content {
   display: block;
-}
-
-.row {
-    min-width: 100em;
-}
-.column1 {
-    float: left;
-    width: 45em;
-    padding: 15px;
-}
-
-.column2 {
-    float: left;
-    width: 50em;
-    padding: 15px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
 }
