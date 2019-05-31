@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <body class="heightSet">
+    <head>
+        <title>Resume</title>
+        <link href="Resume.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Resume</h1>
+        </div>
+
+        <div class="homeNavBar" style="margin-top: -52px">
+		    <a href="index.html">Home</a>
+		    <div class="projects">
+			    <button class="dropButton">Projects</button>
+			    <div class="projects-content">
+			    	<a href="Stock Watcher.html">Stock Watcher</a>
+			    	<a href="Character Tracker.html">Character Tracker</a>
+			    </div>
+            </div>
+            <a style="position:absolute;left:9.5em;" href="Resume.html">Resume</a>
+        </div> 
+        
+        <hr>
+        
+        <img src="https://raw.githubusercontent.com/MTGraves94/Dylan-Wright/master/images/image.png" id="resumeImage">
+
+        <br>
+        <a class="quickLink" href="https://github.com/MTGraves94/Dylan-Wright/raw/master/Resume/Dylan%20Wright%20-%20Resume.pdf">Click to download pdf</a>
+        <br>
+
+        <div id="myModal" class="modal">
+
+            <span class="close">&times;</span>
+          
+            <img class="modal-content" id="img01">
+          
+          </div>
+
+          <script>
+                var modal = document.getElementById("myModal");
+        
+                var img = document.getElementById("resumeImage");
+                var modalImg = document.getElementById("img01");
+                img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+                }
+                
+                var span = document.getElementsByClassName("close")[0];
+        
+                span.onclick = function() { 
+                modal.style.display = "none";
+                }
+        
+            </script>
+    </body>
+
+    <hr>
+    <footer>
+			<div class="row2">
+				<div class="column">dylan.wright03@gmail.com</div><div class="column"><a class="quickLink" href="https://github.com/MTGraves94?tab=repositories">Github</a></div><div class="column"><a class="quickLink" href="https://www.linkedin.com/in/dylan-wright-854991138">Linkedin</a></div>
+			</div>
+			<div id="postNote">Built from scratch in HTML/CSSS</div>
+			
+		</footer>
+    </body>
+    
+</html>

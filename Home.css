@@ -23,6 +23,21 @@
 	min-width: 60em;
 }
 
+html, .heightSet{
+	height: 100%;
+}
+
+footer{
+	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
+	height: 20vh;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	padding-bottom: 32000px;
+    margin-bottom: -32000px;
+}
+
 .title {
 	position: absolute;
 	bottom: 0;
@@ -134,9 +149,45 @@ body {
   display: block;
 }
 
-.column {
+.majorHeading {
+	text-decoration: underline;
+}
+
+.projectHeads {
+	font-size: 1em;
+	margin-left: 4em;
+}
+
+.quickLink {
+	color: blue;
+}
+
+.quickLink:hover {
+	color: #0099ff;
+}
+
+.row2 {
+	min-width: 100em;
+	display: block;
 	float: left;
-	width: 33.33%
+	width: 100%;
+	margin: auto;
+}
+
+.column {
+	display: inline-block;
+	position: relative;
+	float: center;
+	width: 30em;
+	padding: 20px;
+	margin: auto;
+	font-size: 1em;
+}
+
+#postNote {
+	display: block;
+	float: center;
+	font-size: 1.1em;
 }
 
 .row:after {
