@@ -198,11 +198,11 @@ body {
 
 @media screen and (max-width: 600px) {
 	footer {
-		width: 100%
+		width: 125em;
 	}
 
 	.column {
-		width: 32%;
+		width: 40em;
 		padding: 0px;
 	}
 }
