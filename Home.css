@@ -27,7 +27,7 @@ html, .heightSet{
 	height: 100%;
 }
 
-footer{
+footer {
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
 	height: 20vh;
 	width: 100%;
@@ -197,12 +197,8 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-	footer {
-		width: 125em;
+	hr {
+		width: 90%;
 	}
 
-	.column {
-		width: 40em;
-		padding: 0px;
-	}
 }
