@@ -195,3 +195,14 @@ body {
 	display: table;
 	clear: both;
 }
+
+@media screen and (max-width: 600px) {
+	footer {
+		width: 100%
+	}
+
+	.column {
+		width: 32%;
+		padding: 0px;
+	}
+}
