@@ -198,3 +198,33 @@ body {
 	display: table;
 	clear: both;
 }
+
+@media only screen and (max-width: 600px) {
+	.column {
+		width: 18em;
+	}
+
+	hr {
+			width: 50em;
+			left: 10em;
+	}
+
+	.homeNavBar {
+			left: 35em;
+	}
+
+	.row2 {
+			width: 60rem;
+	}
+
+	.header {
+			width: 65rem;
+			overflow-x: hidden;
+	}
+
+	footer {
+			width: 65rem;
+			max-height: 30vh;
+	}
+
+}
