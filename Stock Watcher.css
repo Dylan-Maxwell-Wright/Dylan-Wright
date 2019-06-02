@@ -189,11 +189,12 @@ div {
 
 @media only screen and (max-width: 600px) {
     .column {
-      width: 60em;
+      width: 18em;
     }
 
     hr {
-        width: 55em;
+        width: 50em;
+        left: 3em;
     }
 
     .homeNavBar {
@@ -202,16 +203,21 @@ div {
 
     .row {
         min-width: 20em;
-        width: 60em;
+        width: 60rem;
+    }
+
+    .row2 {
+        width: 60rem;
     }
 
     .header {
-        width: 60em;
+        width: 60rem;
         overflow-x: hidden;
     }
 
     footer {
-        width: 60em;
+        width: 70rem;
+        max-height: 30vh;
     }
 
 }
