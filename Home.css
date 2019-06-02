@@ -4,7 +4,7 @@
 	color: Black;
 	text-align: left;
 	font-family: "Garamond", serif;
-	font-size: 26px;
+	font-size: 1.8em;
 	line-height: 0px;
 	
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
@@ -35,7 +35,8 @@ footer{
 	display: block;
 	text-align: center;
 	padding-bottom: 32000px;
-    margin-bottom: -32000px;
+		margin-bottom: -32000px;
+		font-size: 1.1rem;
 }
 
 .title {
@@ -62,13 +63,13 @@ body {
 .quote {
 	text-align: center;
 	font-family: "Garamond", serif;
-	font-size: 20px;
+	font-size: 1.1em;
 }
 .primary {
 	text-align: left;
 	text-indent: 50px;
 	font-family: "Garamond", serif;
-	font-size: 20px;
+	font-size: 1.2em;
 	min-width: 80em;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -95,7 +96,7 @@ body {
 /*Navbar links*/
 .homeNavBar a {
     float: left;
-	font-size: 20px;
+	font-size: 1.3em;
 	color: Black;
 	text-align: center;
 	padding: 14px 16px;
@@ -110,7 +111,7 @@ body {
 }
 
 .dropButton {
-	font-size: 20px;
+	font-size: 1.3em;
 	border: none;
 	outline: none;
 	color: Black;
@@ -189,7 +190,7 @@ body {
 #postNote {
 	display: block;
 	float: center;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .row:after {

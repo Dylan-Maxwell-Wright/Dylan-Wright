@@ -3,7 +3,7 @@
 	color: Black;
 	text-align: left;
 	font-family: "Garamond", serif;
-	font-size: 20px;
+	font-size: 1.45em;
 	line-height: 0px;
 	
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
@@ -17,7 +17,6 @@
 	box-sizing: border-box;
 	position: relative;	
     z-index: -1;
-    overflow: auto;
 }
 
 html, .heightSet{
@@ -26,7 +25,7 @@ html, .heightSet{
 
 footer{
     text-align: center;
-    font-size: .9em;
+    font-size: .9rem;
     background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
 	height: 20vh;
 	width: 100%;
@@ -75,7 +74,7 @@ div {
 /*Navbar links*/
 .homeNavBar a {
     float: left;
-	font-size: 20px;
+	font-size: 1.3rem;
 	color: Black;
 	text-align: center;
 	padding: 14px 16px;
@@ -90,7 +89,7 @@ div {
 }
 
 .dropButton {
-	font-size: 20px;
+	font-size: 1.3rem;
 	border: none;
 	outline: none;
 	color: Black;

@@ -1,21 +1,21 @@
 
 .header {
-	color: Black;
-	text-align: left;
-	font-family: "Garamond", serif;
-	font-size: 20px;
-	line-height: 0px;
+	  color: Black;
+	  text-align: left;
+	  font-family: "Garamond", serif;
+	  font-size: 1.45em;
+	  line-height: 0px;
 	
-	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
+	  background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
     height: 220px;
-    width: 100em;
-	overflow: hidden;
-	display: block;
+    width: 100%;
+	  overflow: hidden;
+	  display: block;
     top: 0px;
     left: 0px;
-	padding: 0px;
+	  padding: 0px;
     box-sizing: border-box;
-	position: relative;	
+	  position: relative;	
     z-index: -1;
 }
 
@@ -32,6 +32,7 @@ footer{
 	display: block;
 	padding-bottom: 32000px;
     margin-bottom: -32000px;
+    font-size: .9rem;
 }
 
 
@@ -75,7 +76,7 @@ div {
 .homeNavBar a {
     position: relative;
     float: left;
-	font-size: 20px;
+    font-size: 1.3rem;
 	color: Black;
 	text-align: center;
 	padding: 14px 16px;
@@ -89,7 +90,7 @@ div {
 }
 
 .dropButton {
-	font-size: 20px;
+	font-size: 1.3rem;
 	border: none;
 	outline: none;
 	color: Black;
