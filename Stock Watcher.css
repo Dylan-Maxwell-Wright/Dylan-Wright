@@ -13,7 +13,7 @@
 	display: block;
     top: 0px;
     left: 0px;
-	padding: 100px 100px 0px 30px;
+	padding: 0px;
     box-sizing: border-box;
 	position: relative;	
     z-index: -1;
@@ -49,7 +49,7 @@ h1 {
 hr {
     margin-top: -2px;
 	margin-bottom: 0px;
-	width: 115em;
+	width: 94%;
 	border-width: 1px;
     border-style: solid;
 }
@@ -187,20 +187,28 @@ div {
 
 @media only screen and (max-width: 600px) {
     .column {
-      width: 100%;
+      width: 100em;
     }
 
     hr {
-        width: 90%;
+        width: 94em;
     }
 
     .homeNavBar {
-        left: 50em;
+        left: 35em;
     }
 
     .row {
-        min-width: 70%;
-        width: 100%;
+        min-width: 70em;
+        width: 100em;
+    }
+
+    .header {
+        width: 100em;
+    }
+
+    footer {
+        width: 100em;
     }
 
 }
