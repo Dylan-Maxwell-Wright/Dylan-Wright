@@ -54,7 +54,9 @@ hr {
 
 body {
 	  margin: 0px;
-    overflow: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .quote {
@@ -81,7 +83,7 @@ body {
 /*Home Navigation Bar*/
 .homeNavBar {
 	position: absolute;
-	left: 90em;
+	left: 76.5%;
 	overflow: hidden;
 	background-color:rgba(0, 0, 0, 0.0);
 	font-family: "Georgia", serif;

@@ -37,7 +37,9 @@ footer{
 
 body {
     margin: 0px;
-    overflow: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 h1 {
@@ -61,7 +63,7 @@ div {
 
 .homeNavBar {
 	position: absolute;
-	left: 80em;
+	left: 76.5%;
 	overflow: hidden;
 	background-color:rgba(0, 0, 0, 0.0);
 	font-family: "Georgia", serif;
