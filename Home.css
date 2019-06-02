@@ -202,6 +202,7 @@ body {
 @media only screen and (max-width: 600px) {
 	.column {
 		width: 18em;
+
 	}
 
 	hr {
@@ -210,21 +211,26 @@ body {
 	}
 
 	.homeNavBar {
-			left: 35em;
+			left: 40em;
 	}
 
 	.row2 {
 			width: 60rem;
+			left: 0;
 	}
 
-	.header {
-			width: 65rem;
+	.main-header {
+			width: 70rem;
 			overflow-x: hidden;
 	}
 
 	footer {
-			width: 65rem;
+			width: 70rem;
 			max-height: 30vh;
+	}
+
+	body {
+			width: 70rem;
 	}
 
 }
