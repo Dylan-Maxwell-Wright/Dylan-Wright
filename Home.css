@@ -9,7 +9,7 @@
 	
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
 	height: 220px;
-	width: 100%;
+	width: 100em;
 	overflow: hidden;
 	display: block;
 	top: 0px;
@@ -27,7 +27,7 @@ html, .heightSet{
 	height: 100%;
 }
 
-footer {
+footer{
 	background: -webkit-linear-gradient(top left, #E3FEFD, #E3FEF1);
 	height: 20vh;
 	width: 100%;
