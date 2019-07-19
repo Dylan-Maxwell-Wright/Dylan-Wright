@@ -51,7 +51,8 @@ hr {
 
 body {
     margin: 0px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 div {
