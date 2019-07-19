@@ -51,7 +51,7 @@ hr {
 
 body {
     margin: 0px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 div {
@@ -213,6 +213,10 @@ div {
     .header {
         width: 75rem;
         overflow-x: hidden;
+	}
+	
+	.column1, .column2 {
+        float: center;
     }
 
     footer {
